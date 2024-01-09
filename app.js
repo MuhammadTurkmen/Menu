@@ -101,6 +101,9 @@ window.addEventListener('DOMContentLoaded', function() {
     return `<button class="filter-btn" type="button" data-id=${catagory}>${catagory}</button>
 `
   }).join('')
+
+  container.innerHTML = categoryBtns
+
 })    
     
 // filter items     
