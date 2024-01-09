@@ -84,9 +84,8 @@ const menu = [
 
 const sectionCenter = document.querySelector('.section-center')
 const container = document.querySelector('.btn-container')
-const filterBtns = document.querySelectorAll('.filter-btn') 
-  
-        
+
+
 // load items  
 window.addEventListener('DOMContentLoaded', function() {        
   displayMenuItem(menu)       
@@ -99,15 +98,16 @@ window.addEventListener('DOMContentLoaded', function() {
   }, ['all'])
   const categoryBtns = categories.map(function(catagory) {
     return `<button class="filter-btn" type="button" data-id=${catagory}>${catagory}</button>
-`
+    `
   }).join('')
-
+  
   container.innerHTML = categoryBtns
+  const filterBtns = document.querySelectorAll('.filter-btn') 
 
 })    
-    
+
 // filter items     
-    
+
 filterBtns.forEach(function(btn) {  
   btn.addEventListener('click', function(e) {     
     const category = e.currentTarget.dataset.id 
