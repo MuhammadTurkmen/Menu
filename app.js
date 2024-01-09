@@ -92,7 +92,7 @@ window.addEventListener('DOMContentLoaded', function() {
   displayMenuItem(menu)       
   const categories = menu.reduce(function() {
 
-  }, )
+  }, ['all'])
 })    
     
 // filter items     
