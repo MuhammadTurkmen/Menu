@@ -97,7 +97,7 @@ window.addEventListener('DOMContentLoaded', function() {
       }
       return values
   }, ['all'])
-  
+  const categoryBtns = 
 })    
     
 // filter items     
