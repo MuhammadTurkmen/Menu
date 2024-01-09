@@ -97,8 +97,8 @@ window.addEventListener('DOMContentLoaded', function() {
       }
       return values
   }, ['all'])
-  const categoryBtns = categories.map(function() {
-    
+  const categoryBtns = categories.map(function(catagory) {
+
   })
 })    
     
