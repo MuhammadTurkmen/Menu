@@ -91,7 +91,7 @@ const filterBtns = document.querySelectorAll('.filter-btn')
 window.addEventListener('DOMContentLoaded', function() {        
   displayMenuItem(menu)       
   const categories = menu.reduce(function(values,) {
-    if(!values.includes())
+    if(!values.includes(item.category))
     return values
   }, ['all'])
 })    
