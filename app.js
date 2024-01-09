@@ -149,3 +149,5 @@ function displayMenuItem(menuItems) {
   displayMenu = displayMenu.join("")
   sectionCenter.innerHTML = displayMenu
 } 
+
+function 
