@@ -73,7 +73,7 @@ const menu = [
   },
   { 
     id: 10,
-    title: "steak dinner",
+    title: "steak dinner", 
     category: "dinner",
     price: 39.99,
     img: "./images/item-10.jpeg",
