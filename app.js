@@ -104,11 +104,9 @@ window.addEventListener('DOMContentLoaded', function() {
   container.innerHTML = categoryBtns
   const filterBtns = document.querySelectorAll('.filter-btn') 
 
-})    
+  // filter items     
 
-// filter items     
-
-filterBtns.forEach(function(btn) {  
+  filterBtns.forEach(function(btn) {  
   btn.addEventListener('click', function(e) {     
     const category = e.currentTarget.dataset.id 
     const menuCatagory = menu.filter(function(menuItem) { 
@@ -121,10 +119,15 @@ filterBtns.forEach(function(btn) {
     }    
     else {     
       displayMenuItem(menuCatagory)    
-    }  
+    }  // filter items     
+
     
   })     
 }) 
+})    
+
+
+
  
 
 function displayMenuItem(menuItems) { 
