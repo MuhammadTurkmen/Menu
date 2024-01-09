@@ -98,7 +98,8 @@ window.addEventListener('DOMContentLoaded', function() {
       return values
   }, ['all'])
   const categoryBtns = categories.map(function(catagory) {
-    return ``
+    return `<button class="filter-btn" type="button" data-id="all">all</button>
+`
   })
 })    
     
