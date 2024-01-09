@@ -92,6 +92,7 @@ window.addEventListener('DOMContentLoaded', function() {
   displayMenuItem(menu)       
   const categories = menu.reduce(function(values, item) {
 
+    return values
   }, ['all'])
 })    
     
