@@ -97,7 +97,7 @@ window.addEventListener('DOMContentLoaded', function() {
       }
       return values
   }, ['all'])
-  console.log(categories)
+  
 })    
     
 // filter items     
