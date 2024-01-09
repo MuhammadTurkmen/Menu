@@ -73,7 +73,7 @@ const menu = [
   },
   { 
     id: 10,
-    title: "quarantine buddy",
+    title: "steak dinner",
     category: "shakes",
     price: 16.99,
     img: "./images/item-9.jpeg",
