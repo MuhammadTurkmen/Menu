@@ -100,7 +100,7 @@ window.addEventListener('DOMContentLoaded', function() {
   const categoryBtns = categories.map(function(catagory) {
     return `<button class="filter-btn" type="button" data-id=${catagory}>${catagory}</button>
 `
-  })
+  }).join('')
 })    
     
 // filter items     
