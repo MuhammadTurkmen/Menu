@@ -91,7 +91,7 @@ const filterBtns = document.querySelectorAll('.filter-btn')
 window.addEventListener('DOMContentLoaded', function() {        
   displayMenuItem(menu)       
   const categories = menu.map(function(itme) {
-    
+    return item.category 
   })
 })    
     
