@@ -96,7 +96,7 @@ filterBtns.forEach(function(btn) {
     if(category == 'all') {       
       displayMenuItem(menu)  
     }    
-    else {    
+    else {     
       displayMenuItem(menuCatagory)    
     }  
     
