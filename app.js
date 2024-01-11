@@ -101,7 +101,7 @@ filterBtns.forEach(function(btn) {
     }  
     
   })     
-})
+}) 
  
 
 function displayMenuItem(menuItems) { 
