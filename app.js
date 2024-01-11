@@ -93,7 +93,7 @@ filterBtns.forEach(function(btn) {
         return menuItem  
       } 
     })    
-    if(category == 'all') {      
+    if(category == 'all') {       
       displayMenuItem(menu)  
     }   
     else {   
