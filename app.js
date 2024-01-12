@@ -97,7 +97,7 @@ filterBtns.forEach(function(btn) {
       displayMenuItem(menu)  
     }   
     else {   
-      displayMenuItem(menuCatagory)  
+      displayMenuItem(menuCatagory)   
     }  
     
   })     
