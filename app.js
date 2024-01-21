@@ -89,11 +89,11 @@ filterBtns.forEach(function(btn) {
   btn.addEventListener('click', function(e) {     
     const category = e.currentTarget.dataset.id 
     const menuCatagory = menu.filter(function(menuItem) { 
-      if(menu.category === category) {
+      if(menuItem.category === category) {
         return menuItem  
       } 
     })   
-    if(category == 'all') {  
+    if(category == 'all') {   
       displayMenuItem(menu) 
     }
     else {  
