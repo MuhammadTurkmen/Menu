@@ -100,7 +100,7 @@ filterBtns.forEach(function(btn) {
       displayMenuItem(menuCatagory) 
     } 
     
-  })    
+  })     
 })
  
 
