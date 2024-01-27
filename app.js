@@ -98,7 +98,7 @@ filterBtns.forEach(function(btn) {
     }
     else {  
       displayMenuItem(menuCatagory) 
-    }
+    } 
     
   })   
 })
