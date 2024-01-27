@@ -92,7 +92,7 @@ filterBtns.forEach(function(btn) {
       if(menu.category === category) {
         return menuItem  
       } 
-    }) 
+    })  
     if(category == 'all') {
       displayMenuItem(menu)
     }
