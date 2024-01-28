@@ -86,7 +86,7 @@ window.addEventListener('DOMContentLoaded', function() {
 // filter items     
     
 filterBtns.forEach(function(btn) {  
-  btn.addEventListener('click', function(e) {    
+  btn.addEventListener('click', function(e) {     
     const category = e.currentTarget.dataset.id 
     const menuCatagory = menu.filter(function(menuItem) { 
       if(menu.category === category) {
