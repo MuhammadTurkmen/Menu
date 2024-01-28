@@ -91,7 +91,7 @@ filterBtns.forEach(function(btn) {
     const menuCatagory = menu.filter(function(menuItem) { 
       if(menu.category === category) {
         return menuItem  
-      }
+      } 
     }) 
     if(category == 'all') {
       displayMenuItem(menu)
