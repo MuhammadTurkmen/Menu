@@ -92,7 +92,7 @@ filterBtns.forEach(function(btn) {
       return menuItem  
     })
    
-  })  
+  })   
 })
  
 
