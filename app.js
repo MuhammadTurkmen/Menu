@@ -82,7 +82,7 @@ const filterBtns = document.querySelectorAll('.filter-btn')
 window.addEventListener('DOMContentLoaded', function() {        
   displayMenuItem(menu)      
 })   
-   
+    
 // filter items  
    
 filterBtns.forEach(function(btn) { 
