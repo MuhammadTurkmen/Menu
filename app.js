@@ -85,7 +85,7 @@ window.addEventListener('DOMContentLoaded', function() {
   
 // filter items 
    
-filterBtns.forEach(function() {
+filterBtns.forEach(function(btn) {
 
 })
  
