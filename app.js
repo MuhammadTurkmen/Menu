@@ -85,6 +85,9 @@ window.addEventListener('DOMContentLoaded', function() {
   
 // filter items 
   
+filterBtns.forEach(function() {
+  
+})
  
 
 function displayMenuItem(menuItems) { 
