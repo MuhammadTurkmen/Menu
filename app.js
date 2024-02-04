@@ -83,7 +83,7 @@ window.addEventListener('DOMContentLoaded', function() {
   displayMenuItem(menu)     
 }) 
  
-
+// filter items 
 
 
 
