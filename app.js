@@ -85,7 +85,7 @@ window.addEventListener('DOMContentLoaded', function() {
   
 // filter items 
   
-
+ 
 
 function displayMenuItem(menuItems) { 
   let displayMenu = menuItems.map(function(item) {
