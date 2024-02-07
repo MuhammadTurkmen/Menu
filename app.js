@@ -76,7 +76,7 @@ const menu = [
 const sectionCenter = document.querySelector('.section-center')
 
 const filterBtns = document.querySelectorAll('.filter-btn')
- 
+  
      
         
 window.addEventListener('DOMContentLoaded', function() {  
