@@ -79,7 +79,7 @@ const filterBtns = document.querySelectorAll('.filter-btn')
   
      
         
-window.addEventListener('DOMContentLoaded', function() {  
+window.addEventListener('DOMContentLoaded', function() {   
   displayMenuItem(menu) 
 }) 
  
