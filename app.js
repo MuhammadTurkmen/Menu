@@ -81,7 +81,7 @@ const filterBtns =
     
 window.addEventListener('DOMContentLoaded', function() {
   displayMenuItem(menu)
-})
+}) 
 
 function displayMenuItem(menuItems) {
   let displayMenu = menuItems.map(function(item) {
