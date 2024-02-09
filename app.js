@@ -75,7 +75,7 @@ const menu = [
 
 const sectionCenter = document.querySelector('.section-center')
 
-const filterBtns = document
+const filterBtns = document.querySelectorAll('')
 
  
     
