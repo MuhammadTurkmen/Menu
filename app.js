@@ -83,7 +83,7 @@ window.addEventListener('DOMContentLoaded', function() {
           <div class="item-info">
             <header>
               <h4>${item.title}</h4>
-              <h4 class="price">$15</h4>
+              <h4 class="price">$${item.price}</h4>
             </header>
             <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                Nulla itaque eveniet molestias neque.
