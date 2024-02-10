@@ -85,9 +85,8 @@ window.addEventListener('DOMContentLoaded', function() {
               <h4>${item.title}</h4>
               <h4 class="price">$${item.price}</h4>
             </header>
-            <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Nulla itaque eveniet molestias neque.
-               Voluptatem minima laudantium nostrum doloremque tempora id.
+            <p class="item-text">
+              ${item.desc}
             </p>
           </div>
         </article>`
