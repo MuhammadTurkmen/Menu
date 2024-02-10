@@ -77,7 +77,20 @@ const sectionCenter = document.querySelector('.section-center')
 
 window.addEventListener('DOMContentLoaded', function() {
   let displayMenu = menu.map(function(item) {
-    return item
+
+    return `<article class="menu-item">
+          <img src="./menu-item.jpeg" class="photo" alt="menu item">
+          <div class="item-info">
+            <header>
+              <h4>buttermilk pancakes</h4>
+              <h4 class="price">$15</h4>
+            </header>
+            <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Nulla itaque eveniet molestias neque.
+               Voluptatem minima laudantium nostrum doloremque tempora id.
+            </p>
+          </div>
+        </article>`
   })
   console.log(displayMenu)
 })
