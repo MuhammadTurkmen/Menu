@@ -92,5 +92,5 @@ window.addEventListener('DOMContentLoaded', function() {
         </article>`
   })
   displayMenu = displayMenu.join("")
-  console.log(displayMenu)
+  
 })
