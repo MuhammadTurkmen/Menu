@@ -82,7 +82,7 @@ window.addEventListener('DOMContentLoaded', function() {
           <img src=${item.img} class="photo" alt=${item.title}>
           <div class="item-info">
             <header>
-              <h4>buttermilk pancakes</h4>
+              <h4>${item.title}</h4>
               <h4 class="price">$15</h4>
             </header>
             <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
