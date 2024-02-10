@@ -79,4 +79,5 @@ window.addEventListener('DOMContentLoaded', function() {
   let displayMenu = menu.map(function(item) {
     return item
   })
+  console.log(displayMenu)
 })
