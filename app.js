@@ -150,4 +150,6 @@ function displayMenuItem(menuItems) {
   sectionCenter.innerHTML = displayMenu
 } 
 
-function 
+function displayMenuButtons() {
+  
+}
