@@ -89,6 +89,7 @@ const container = document.querySelector('.btn-container')
 // load items  
 window.addEventListener('DOMContentLoaded', function() {        
   displayMenuItem(menu)       
+  displayMenuButtons()
 })    
 
 
